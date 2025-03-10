@@ -1,56 +1,27 @@
-﻿# Portafolio-Curso 2 HTML CSS Box
+﻿# Portafolio-Curso 3 HTML CSS Box
 
-Estilo de texto y Fuente
+Estilo de botones y nuevo subtitulo
 
-#1 - Espaciado y márgenes con Flexbox
+#1 - Agregando un subtítulo a la página
 
-Aquí, el objetivo es ajustar el espacio entre la sección de texto y la imagen para crear una apariencia similar al diseño de Figma. Utiliza la propiedad justify-content: space-between; en Flexbox para espaciar los elementos y agrega márgenes para evitar que los elementos queden pegados a los bordes de la pantalla.
+Imagina que estás desarrollando una página web para compartir tus redes sociales. Necesitas agregar un subtítulo "Accede a mis redes:" encima de los enlaces para Instagram y Github. Tu tarea es editar el archivo index.html para incluir este subtítulo. Recuerda usar la etiqueta <h2> para el subtítulo y colocarlo dentro de la <div> que ya contiene los enlaces.
 
-.presentacion {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 10%;
-}
-Copia el código
+#2 - Cambiando la disposición de los elementos con Flexbox
 
-#2 - Definiendo el tamaño de la sección de texto
+Ahora que se ha añadido el subtítulo, te das cuenta de que está alineado a la izquierda de los botones en lugar de encima de ellos. Esto sucedió porque los elementos están dispuestos horizontalmente. Tu misión es cambiar la disposición de los elementos (subtítulo y botones) a una disposición vertical. Edita el archivo style.css, modificando la propiedad flex-direction a column dentro de la clase .presentacion__enlaces. Esto cambiará la dirección del Flexbox, alineando los elementos verticalmente.
 
-En esta actividad, ajustarás el tamaño de una sección de texto para que corresponda a las especificaciones del diseño en Figma. Agregarás una nueva clase llamada presentacion__contenido a la etiqueta <section> en HTML y luego definirás el ancho de esta sección en CSS usando la propiedad width. El valor específico del ancho debe ser extraído del proyecto en Figma.
+#3 - Ajustando la alineación y el espaciado de los elementos
 
-#3 - Ajustando tamaños de títulos y textos
+Después de modificar la dirección del Flexbox, observas que los elementos (texto y botones) están muy cerca unos de otros y alineados a la izquierda. Para mejorar la estética de la página, necesitas centrar verticalmente estos elementos y agregar un espacio entre ellos. En el archivo style.css, dentro de la clase .presentacion__enlaces, añade la propiedad align-items: center para centrar los elementos. Luego, agrega la propiedad gap con un valor de 32px para añadir el espaciado entre cada elemento.
 
-El objetivo aquí es modificar el tamaño de los textos de títulos y párrafos para que correspondan al diseño en Figma. Crearás clases específicas para el título ( presentacion__contenido__titulo) y para el texto ( presentacion__contenido__texto) en HTML. Luego, en CSS, usarás la propiedad font-size para definir los tamaños de fuente para estas clases, con los valores extraídos de Figma.
+#4 - Creando una clase para el subtítulo
 
-#4 - Importando y aplicando fuentes de Google Fonts
+Estás desarrollando una página web y has decidido que el subtítulo "Accede a mis redes:" necesita una estilización específica. Para eso, vas a crear una clase CSS para este subtítulo. En el archivo index.html, encuentra la etiqueta <h2> que contiene el subtítulo y añade una clase llamada presentacion__enlaces__subtitulo. Tu tarea es insertar esta clase en la etiqueta <h2> de forma correcta.
 
-En esta actividad, importarás las fuentes "Krona One" y "Montserrat" de Google Fonts para tu proyecto web. Primero, debes buscar estas fuentes en Google Fonts y utilizar la opción de @import para incluirlas en el archivo CSS. Luego, aplicarás estas fuentes a los elementos de texto específicos en tu página, como títulos y párrafos, usando la propiedad font-family.
+#5 - Estilizando el subtítulo
 
-#5 - Personalizando fuentes de títulos y textos
+Ahora que has creado una clase para el subtítulo, es hora de estilizarlo. En el archivo style.css, añade la clase .presentacion__enlaces__subtitulo y configura las propiedades de estilo. Utiliza la fuente 'Krona One', con un peso de fuente (font-weight) de 400 y un tamaño de fuente (font-size) de 24px. Ajusta la fuente para que sea 'sans-serif' sin comillas. Tu tarea es escribir el código CSS para aplicar estas configuraciones al subtítulo.
 
-Después de importar las fuentes, personalizarás el estilo de los títulos y textos de la página para que coincidan con el diseño en Figma. Modificarás la propiedad font-family para los elementos de título y texto en CSS, aplicando las fuentes "Krona One" y "Montserrat" respectivamente. El objetivo es garantizar que el estilo visual de la página web esté alineado con el diseño propuesto.
+#6 - Modificando el estilo de los botones
 
------------------------------------------------------------------------------------------------
-Manejando los Botones
-
-#1 - Espaciado y tamaño de los botones
-
-Aquí, el desafío es ajustar el espaciado y el tamaño de los botones. Después de haber alineado los botones horizontalmente con Flexbox, necesitas asegurarte de que tengan un tamaño adecuado y un espaciado consistente entre ellos, según el diseño del proyecto. Modifica el CSS para ajustar el tamaño de los botones y agrega margen para crear el espaciado correcto.
-
-#2 - Mejorando la visibilidad de los botones
-
-En esta actividad, tu enfoque estará en la accesibilidad y visibilidad de los botones. Guilherme mencionó la dificultad para ver los botones. Por lo tanto, aumenta el tamaño de la fuente, cambia los colores y agrega efectos como sombra o borde para hacerlos más visibles y atractivos. Utiliza tus habilidades en CSS para mejorar la estética y accesibilidad de los botones en la página.
-
-#3 - Creando una clase común para botones
-
-En esta actividad, crearás una clase CSS común para los botones "Instagram" y "GitHub" en tu proyecto HTML. Esta clase tendrá propiedades de estilo que harán que los botones se parezcan a los del diseño en Figma, incluyendo color de fondo, tamaño de texto y redondeo de las esquinas.
-
-#4 - Ajustando el espaciado interno de los botones
-
-El objetivo de esta actividad es ajustar el espaciado interno de los botones para que coincidan con el diseño en Figma. Utilizarás la propiedad padding para definir el espacio entre el texto del botón y sus bordes, garantizando que el diseño sea consistente y visualmente agradable.
-
-#5 - Importando y aplicando la fuente correcta
-
-En esta actividad, te enfocarás en ajustar la fuente de los botones. Importarás la fuente Montserrat con el peso 600 de Google Fonts y la aplicarás a los botones, asegurándote de que el texto coincida exactamente con el diseño en Figma. Además, eliminarás el subrayado predeterminado de los enlaces y ajustarás el color del texto.
-
-
+Los botones de tu página necesitan un nuevo aspecto. En el archivo style.css, encuentra la clase .presentacion__enlaces__link y realiza los siguientes cambios: elimina el fondo cian, cambia el color del texto a blanco (#F6F6F6), añade un borde sólido de 2px en color cian (#22D4FD), cambia el ancho a 378px y ajusta el border-radius a 8px. Tu tarea es cambiar el código CSS para reflejar estos cambios, creando botones con bordes cian, texto blanco y esquinas menos redondeadas.
