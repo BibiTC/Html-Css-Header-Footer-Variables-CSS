@@ -73,5 +73,9 @@ body{
     display:flex;
     justify-content: center; /*Flex en row por defecto osea linea, debo alinear horizontal*/
     gap: 10px;
+
 }
 
+.presentacion__enlaces__link:hover {
+background-color: #272727;
+}
