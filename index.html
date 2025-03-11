@@ -9,35 +9,30 @@
 
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="style.css">-->
-
-
     <!-- CSS (con ID para cambiar dinámicamente) -->
     <link id="theme-style" rel="stylesheet" href="style.css">
-
-    <!-- Fuente Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <!--Fuente de Letra Krona One para h1-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!--Fuente de Letra Krona One para p-->
 </head>
 
 <body>
-    
-    <!-- Selector de Tema (Estilos) -->
-    <label for="theme-selector">Selecciona un estilo:</label>
-    <select id="theme-selector">
-        <option value="style.css">Predeterminado</option>
-        <option value="formal.css">Formal y Elegante</option>
-        <option value="colorido.css">Colorido y Divertido</option>
-        <option value="minimalista.css">Minimalista y Limpio</option>
-        <option value="estilizaEnlaces.css">Estiliza Enlaces</option>
-    </select>
+    <header class="presentacion">
+        <section class="presentacion__contenido">
 
-    <header>
-        <div class="header-container">
-            <h1>
+            <section class="seleccion__tema">
+                <!-- Selector de Tema (Estilos) -->
+                <label for="theme-selector">Selecciona un estilo:</label>
+                <select id="theme-selector">
+                    <option value="style.css">Predeterminado</option>
+                    <option value="formal.css">Formal y Elegante</option>
+                    <option value="colorido.css">Colorido y Divertido</option>
+                    <option value="minimalista.css">Minimalista y Limpio</option>
+                    <option value="estilizaEnlaces.css">Estiliza Enlaces</option>
+                </select>
+                </section>
+
+
+            <h1 class="presentacion__contenido__titulo">
                 Potencializa tu negocio digital con Landing Pages generadas
-                con <strong>Inteligencia Artificial</strong>
+                con <strong class="titulo-destaque">Inteligencia Artificial</strong>
             </h1>
             <div class="index-contacto">
                 <nav>
@@ -47,21 +42,16 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </section>
     </header>
-    <main id="sobre-mi">
+    <main class="presentacion">
         <!-- Container -->
-        <div class="container">
-
-            <!-- Texto -->
-            <div class="texto">
-
-                <h2>
-                    Convierte visitantes en clientes con 
-                    <strong>tecnología inteligente
-                    </strong>
-                </h2>
-                <p>
+        <section class="presentacion__contenido">
+            <h2 class="presentacion__contenido__titulo2">
+                Convierte visitantes en clientes con 
+                <strong>tecnología inteligente
+                </strong></h2>
+                <p class="presentacion__contenido__texto">
                     ¡Hola! Soy Bibiana Trujillo, desarrolladora Front-end con especialización
                     en Landing Pages con JavaScript, HTML y CSS. Ayudo a pequeños negocios  y
                     diseñadores a tener landing pages optimizadas con Inteligencia Artificial
@@ -70,18 +60,28 @@
                 </p>
 
                 <!-- Botones -->
-                <div class="boton-container">
-                    <a href="https://www.instagram.com/bibitru/#" target="_blank">Instagram</a> 
-                    <a href="https://github.com/BibiTC" target="_blank">Github</a>
+                <div class="presentacion__enlaces">
+                    <h3 class="presentacion__enlaces__subtitulo">Accede a mis redes</h3>
+                    <a class="presentacion__enlaces__link" href="https://github.com/">
+                        <img src="./assets/github.png">
+                        Github
+                    </a>
+                    <a class="presentacion__enlaces__link" href="https://linkedin.com/in/">
+                        <img src="./assets/linkedin.png">
+                        Linkedin
+                    </a>
+                    <a class="presentacion__enlaces__link" href="https://twitch.tv/">
+                        <img src="./assets/twitch.png">
+                        Twitch
+                    </a>
                 </div>
-            </div>
+               
+        </section>
 
             <!-- Imagen -->
-            <div class="imagen">
-                <img src="img/FotoPerfil-P.png" alt="Imagen de Bibiana Trujillo Trabajando">
-            </div>        
-        </div>
-    </main>
+                 <img src="./assets/imagen.png" alt="Imagen de Bibiana Trujillo Trabajando">
+   </main>
+
     <footer id="contacto">
         <div class="footer-container">
             <div class="contacto-email">
