@@ -69,6 +69,9 @@ body{
     text-decoration: none;
     color: #F6F6F6; /* #000000; */
     /*box-shadow: 10px 10px 5px rgba(206, 213, 206, 0.815);*/ /*quito la sombra a los botones*/
-    border: 2px solid #22D4FD /*tamaño borde, estilo del borde,color*/
+    border: 2px solid #22D4FD; /*tamaño borde, estilo del borde,color*/
+    display:flex;
+    justify-content: center; /*Flex en row por defecto osea linea, debo alinear horizontal*/
+    gap: 10px;
 }
 
