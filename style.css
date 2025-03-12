@@ -13,13 +13,30 @@ body{
     color: #f6f6f6;
 }
 
-.titulo-destaque {
-    color: #22D4FD;  
+.header {
+    padding: 2% 0% 0% 15%; /*5% lo saque del margin de .presentacion*/
+}
+
+.header__menu {
+    display: flex; /*para poder usar abajo la propiedad gap*/
+    gap: 80px;  
+}
+
+.header__menu__link {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.header__menu__link:hover {
+    color: #112e4c;
 }
 
 .presentacion {
-    padding: 8% 15%;
-    /*margin: 10% 15%;*/
+    padding: 6% 15%;  /*crea espacio dentro del elemento*/
+    /*margin: 10% 15%;*/  /*crea espacio fuera del elemento*/
     display: flex;
     align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
     justify-content: space-between ;
@@ -33,9 +50,13 @@ body{
     gap: 40px;
 }
 
-.presentacion__contenido__titulo{
+.presentacion__contenido__titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.titulo-destaque {
+    color: #22D4FD;  
 }
 
 .presentacion__contenido__texto {
@@ -89,24 +110,5 @@ background-color: #272727;
     font-size: 24px;
     font-weight: 400;
 }
-
-.encabezado__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.encabezado__menu__link {
-    font-size: 18px;
-    color: #22D4FD;
-    margin: 0 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.encabezado__menu__link:hover {
-    color: #112e4c;
-}
-
 
 
