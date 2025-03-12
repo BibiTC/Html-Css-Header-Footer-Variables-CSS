@@ -35,7 +35,7 @@ body{
 }
 
 .presentacion {
-    padding: 6% 15%;  /*crea espacio dentro del elemento*/
+    padding: 5% 15%;  /*crea espacio dentro del elemento*/
     /*margin: 10% 15%;*/  /*crea espacio fuera del elemento*/
     display: flex;
     align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
@@ -62,6 +62,11 @@ body{
 .presentacion__contenido__texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+}
+
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: #22D4FD;
 }
 
 .presentacion__enlaces {
