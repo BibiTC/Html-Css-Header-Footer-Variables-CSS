@@ -18,9 +18,10 @@ body{
 }
 
 .presentacion {
+    padding: 8% 15%;
+    /*margin: 10% 15%;*/
     display: flex;
     align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
-    margin: 10% 15%;
     justify-content: space-between ;
     /*flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;*/
 }
@@ -53,27 +54,26 @@ body{
 
 .presentacion__enlaces__subtitulo {
     font-family: "Krona One",sans-serfi;
-    font-size: 24px;
     font-weight: 400; /*regular*/
+    font-size: 24px;    
 }
 
 .presentacion__enlaces__link {
-    width: 378px;
     /*background-color: #22D4FD; */ /*quitamos el background azul y cambiamos color letra*/
-    text-align: center;
-    padding: 21.5px 0;  /* Vr del vertical, Vr del horizontal */
-    border-radius: 8px;/* 16px bordes botones */
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #F6F6F6; /* #000000; */
-    /*box-shadow: 10px 10px 5px rgba(206, 213, 206, 0.815);*/ /*quito la sombra a los botones*/
-    border: 2px solid #22D4FD; /*tamaño borde, estilo del borde,color*/
     display:flex;
     justify-content: center; /*Flex en row por defecto osea linea, debo alinear horizontal*/
     gap: 10px;
-
+    border: 2px solid #22D4FD; /*tamaño borde, estilo del borde,color*/
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;/* 16px bordes botones */
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;  /* Vr del vertical, Vr del horizontal */
+    text-decoration: none;
+    color: #F6F6F6; /* #000000; */
+    font-family: "Montserrat", sans-serif;
+   /*box-shadow: 10px 10px 5px rgba(206, 213, 206, 0.815);*/ /*quito la sombra a los botones*/
 }
 
 .presentacion__enlaces__link:hover {
@@ -81,10 +81,32 @@ background-color: #272727;
 }
 
 .footer {
+    color: #000000;
     background-color: #22D4FD ;
     padding: 24px;
-    color: #000000;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     font-weight: 400;
 }
+
+.encabezado__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado__menu__link {
+    font-size: 18px;
+    color: #22D4FD;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.encabezado__menu__link:hover {
+    color: #112e4c;
+}
+
+
+

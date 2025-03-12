@@ -116,3 +116,58 @@ Finalmente, modifica la apariencia del cursor y el fondo de los botones cuando e
 ---
 
 ¡Listo! Ahora tus íconos de redes sociales estarán mejor organizados y estilizados en tu proyecto web. 🚀
+
+-----------------------------------------------------------------------------------
+
+# Personalizando el pie de página de tu sitio web
+
+Imagina que estás desarrollando un sitio web y ha llegado el momento de personalizar el pie de página. El desafío es crear un pie de página estilizado con las siguientes características:
+
+- Fondo azul claro (`#22D4FD`).
+- Texto en negro (`#000000`).
+- El texto debe estar centrado y utilizar la fuente `'Montserrat'`, tamaño `24px` y peso `400`.
+- El pie de página debe tener un `padding` de `24px`.
+
+Utiliza el HTML y CSS proporcionados como base y aplica las modificaciones necesarias.
+
+---
+
+## Ajustando el espaciado interno de la presentación
+
+Te han encargado ajustar el diseño de una sección de presentación en un sitio web. Actualmente, los elementos están demasiado cerca de los bordes, lo que afecta la estética del sitio. 
+
+Tu tarea es reemplazar la propiedad `margin` por `padding` en la clase `.presentación` del CSS, probando valores de porcentaje para encontrar el espaciado ideal. Comienza con un `5%` y ajusta según sea necesario para obtener un aspecto equilibrado.
+
+---
+
+## Eliminando el `height` para adaptar el diseño
+
+Tu sitio web está experimentando un problema de diseño: la propiedad `height: 100vh` en el `body` está impidiendo que el contenido se ajuste correctamente en la pantalla, especialmente con la adición de nuevos elementos como un pie de página. 
+
+Tu misión es comentar la línea que define `height: 100vh` en el CSS y verificar el impacto de este cambio en el diseño del sitio. Observa cómo el contenido y el pie de página se adaptan a la nueva configuración.
+
+---
+
+## Estilizando el encabezado con CSS
+
+Estás creando un sitio web y ha llegado el momento de estilizar el encabezado para que sea visible y atractivo, similar al proyecto en Figma. 
+
+Necesitas agregar estilo al encabezado en el archivo `style.css`, de modo que los enlaces **"Home"** y **"Sobre mí"** estén alineados horizontalmente y tengan un aspecto moderno. 
+
+Considera usar propiedades como:
+
+- `font-size`
+- `color`
+- `margin`
+- `padding`
+- `display`
+
+Intenta también agregar un `hover` para cambiar el color de los enlaces cuando el ratón pase sobre ellos.
+
+---
+
+## Ajustando el espaciado interno de los enlaces
+
+Basándonos en el estilo actual del encabezado, parece que los enlaces pueden estar muy cerca uno del otro o del borde del encabezado, lo que puede afectar la legibilidad y la estética del sitio. 
+
+Tu tarea es ajustar el espaciado interno (`padding`) de los enlaces **"Home"** y **"Sobre mí"** para asegurarte de que tengan un espaciado adecuado alrededor del texto. Esto hará que el encabezado sea más atractivo y fácil de usar.
