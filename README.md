@@ -171,3 +171,55 @@ Intenta también agregar un `hover` para cambiar el color de los enlaces cuando 
 Basándonos en el estilo actual del encabezado, parece que los enlaces pueden estar muy cerca uno del otro o del borde del encabezado, lo que puede afectar la legibilidad y la estética del sitio. 
 
 Tu tarea es ajustar el espaciado interno (`padding`) de los enlaces **"Home"** y **"Sobre mí"** para asegurarte de que tengan un espaciado adecuado alrededor del texto. Esto hará que el encabezado sea más atractivo y fácil de usar.
+
+-----------------------------------------------------------------------------------------------
+
+# Estilizando el encabezado con CSS
+
+Imagina que trabajas en el desarrollo front-end en un proyecto de sitio web. Tu desafío es estilizar el encabezado de la página de acuerdo con las especificaciones proporcionadas. Utiliza el archivo `style.css` para aplicar las propiedades CSS en el encabezado.
+
+---
+
+## Ajustando el espaciado del contenido
+
+Ahora, como desarrollador, tu próximo desafío es ajustar el espaciado del contenido de la página para que se alinee correctamente con el encabezado.
+
+---
+
+## Creando y navegando a la página "Sobre mí"
+
+Estás trabajando en un proyecto de sitio web personal y necesitas agregar una página "Sobre mí". Para ello, debes crear un nuevo archivo HTML llamado `about.html` y configurar un enlace en el menú de navegación de tu sitio principal (`index.html`) para redirigir a esta nueva página. 
+
+Además, ajusta el encabezado de la página `about.html` para que el título de la pestaña sea **"Sobre mí"** y agrega un `<h1>` con el texto **"Sobre mí"** en el cuerpo de la nueva página. Asegúrate de que la navegación entre la página principal y la página "Sobre mí" funcione correctamente.
+
+---
+
+## Ajustando el estilo después de reorganizar archivos
+
+Has notado que, después de mover el archivo `styles.css` a una nueva carpeta llamada **"styles"**, se perdió el estilo de tu sitio. Para corregir esto, debes actualizar la ruta del archivo CSS en tu archivo `index.html`. 
+
+Además, en el archivo `styles.css`, debes eliminar el subrayado de los enlaces en el encabezado del sitio. Después de estas correcciones, verifica si el estilo se aplicó correctamente y si los enlaces del encabezado ya no están subrayados.
+
+---
+
+## Estructurando la página "Sobre mí" con encabezado y pie de página
+
+En esta actividad, estructurarás la página "Sobre mí" de tu proyecto, reutilizando el encabezado y el pie de página de la página inicial (`index.html`). 
+
+1. Copia el `<header>` y el `<footer>` de `index.html` y pégalos en el archivo `about.html`.
+2. Agrega una sección `<main>` vacía entre el `<header>` y el `<footer>`.
+3. Verifica si la estructura copiada funciona correctamente en el navegador, con los enlaces de navegación y el texto del pie de página mostrándose.
+
+---
+
+## Importando y corrigiendo la ruta del archivo CSS en la página "Sobre mí"
+
+El objetivo de esta actividad es importar el archivo de estilos `styles.css` en la página "Sobre mí" y corregir la ruta del archivo para reflejar la estructura de carpetas actual. 
+
+En el archivo `about.html`, agrega la etiqueta `<link>` para importar `styles.css`. Recuerda que el archivo CSS se movió a una carpeta llamada **"styles"**, por lo que la ruta de `href` en la etiqueta `<link>` debe actualizarse a:
+
+```html
+<link rel="stylesheet" href="./styles/styles.css">
+```
+
+Después de esta corrección, guarda el archivo y recarga la página en el navegador para verificar si los estilos se aplicaron correctamente.
