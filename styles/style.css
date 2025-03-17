@@ -33,7 +33,7 @@ body{
 
 .header__menu__link {
     font-family: var(--fuente-montserrat); 
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -50,17 +50,19 @@ body{
     align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
     justify-content: space-between ;
     /*flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;*/
+    gap: 82px;
 }
 
+
 .presentacion__contenido {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .presentacion__contenido__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-krona);
 }
 
@@ -69,7 +71,7 @@ body{
 }
 
 .presentacion__contenido__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
 }
 
@@ -90,7 +92,7 @@ body{
 .presentacion__enlaces__subtitulo {
     font-family: var(--fuente-krona);
     font-weight: 400; /*regular*/
-    font-size: 24px;    
+    font-size: 1.5rem;    
 }
 
 .presentacion__enlaces__link {
@@ -99,10 +101,10 @@ body{
     justify-content: center; /*Flex en row por defecto osea linea, debo alinear horizontal*/
     gap: 10px;
     border: 2px solid var(--color-terciario); /*tamaño borde, estilo del borde,color*/
-    width: 378px;
+    width: 50% ;
     text-align: center;
     border-radius: 8px;/* 16px bordes botones */
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;  /* Vr del vertical, Vr del horizontal */
     text-decoration: none;
@@ -115,13 +117,17 @@ body{
 background-color: var(--color-hover);
 }
 
+.presentacion__imagen {
+    width: 50%
+}
+
 .footer {
     color: var(--color-primario);
     background-color: var(--color-terciario) ;
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
